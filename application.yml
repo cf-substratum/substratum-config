@@ -3,3 +3,16 @@ cf:
     awssandbox: gwx-aws-sandbox-balanced-genet.cfapps.io
     azuresandbox: gwx-azure-sandbox-proud-ardvark.cfapps.io
   sslValidationSkipped: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,health,metrics,scheduledtasks,loggers,prometheus
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
