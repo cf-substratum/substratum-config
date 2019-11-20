@@ -1,7 +1,7 @@
 cf:
   butlers:
-    aws-sandbox: gwx-aws-sandbox-balanced-genet.cfapps.io
-    azure-sandbox: gwx-azure-sandbox-proud-ardvark.cfapps.io
+  - aws-sandbox: gwx-aws-sandbox-balanced-genet.cfapps.io
+  - azure-sandbox: gwx-azure-sandbox-proud-ardvark.cfapps.io
   sslValidationSkipped: true
 
 management:
